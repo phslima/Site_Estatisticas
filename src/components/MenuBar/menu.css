@@ -1,0 +1,49 @@
+
+.menu{
+    background-color: #684EA1;
+    color: white ;
+    position:fixed;
+    z-index:2;
+    width:100%;
+    margin-top: 20px;
+    
+}
+    
+
+.menutext{
+    color: white !important;
+    padding-right: 20px;
+    
+}
+
+
+
+  
+  
+.menutext:visited {
+    color: white !important;
+  }
+  
+  
+  
+  #departamentos:focus {
+    color: red  !important;
+    outline: none;
+  }
+
+
+
+
+
+@media screen and (max-width: 700px)
+{
+    .menutext{
+        font-size:1.5rem;
+        
+    }
+}
+
+
+
+
+

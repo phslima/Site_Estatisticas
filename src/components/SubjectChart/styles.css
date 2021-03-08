@@ -1,0 +1,48 @@
+.chart-container {
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    border: 1px solid gray;
+    margin-left: 5%;
+    width:50%;
+    position: fixed;
+    
+}
+
+.chart-title {
+    line-height: 32px;
+    
+}
+
+.title-subtitle {
+    width: 90%;
+    padding-left: 5%;
+    
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .col-lg-7 {
+        padding: 0 !important
+    }
+    .chart-container {
+        border: 0;
+        width: 100%;
+        margin-left: 0;
+        border-radius: 0;
+    }   
+    .chart-title {
+        font-size: 20px;
+        font-weight: bold
+    }
+    .x-icon {
+        display: none;
+        
+    }
+    .title-subtitle {
+        width: 100%;
+        
+    }
+    .chart {
+        padding-left: 5%
+    }
+}

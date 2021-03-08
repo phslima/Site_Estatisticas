@@ -1,0 +1,23 @@
+.navbarPET{
+    max-height: 45px;
+}
+
+
+.justify-content-start{
+    width:100%;
+    z-index:2;
+    background-color: white;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    margin-top:20px;
+    
+}
+
+
+
+.navtext{
+    color: black !important;
+    margin-left: 10px;
+    
+}
